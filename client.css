@@ -1,0 +1,101 @@
+.wrapper {
+	display:		block;
+	width:			460px;
+	position:		absolute;
+	top:			40%;
+	left:			50%;
+	transform:		translate(-50%,-50%);
+	/* border: 		1px solid red; */
+}
+
+input {
+	width:			220px;
+	height:			23px;
+	font-size:		15px;
+}
+
+/*
+**	Блок текста для кнопок
+*/
+.text_wrapper {
+	font-size:		18px;
+	font-weight:	600;
+	position:		absolute;
+	font-family:	'Montserrat Alternates', sans-serif;
+	color:			white;
+	top:			50%;
+	left:			50%;
+	transform:		translate(-50%,-50%);
+}
+
+/*
+**	Малиновая кнопка
+*/
+.button_crimson {
+	display:			inline-block;
+	position:			relative;
+	width:				80px;
+	height:				40px;
+	background-color:	rgb(204, 95, 100);
+	box-shadow:			0 0 10px rgba(0,0,0,0.6);
+	border-radius:		6px;
+	margin-left:		50px;
+	margin-top:			15px;
+}
+
+.button_crimson:hover {
+	background-color:	rgb(204, 60, 67);
+}
+
+.button_crimson:active {
+	background-color:	rgb(145, 35, 41);
+	box-shadow:			0 0 10px rgba(0,0,0,0.4);
+}
+
+/*
+**	Голубая кнопка
+*/
+.button_blue {
+	display:			inline-block;
+	position:			relative;
+	width:				80px;
+	height:				40px;
+	background-color:	rgb(95, 179, 204);
+	box-shadow:			0 0 10px rgba(0,0,0,0.6);
+	border-radius:		6px;
+	margin-left:		50px;
+	margin-top:			15px;
+}
+
+.button_blue:hover {
+	background-color:	rgb(54, 160, 192);
+}
+
+.button_blue:active {
+	background-color:	rgb(45, 137, 165);
+	box-shadow:			0 0 10px rgba(0,0,0,0.4);
+}
+
+/*
+**	Желтая кнопка
+*/
+.button_yellow {
+	display:			inline-block;
+	position:			relative;
+	width:				80px;
+	height:				40px;
+	background-color:	rgb(204, 188, 95);
+	box-shadow:			0 0 10px rgba(0,0,0,0.6);
+	border-radius:		6px;
+	margin-left:		50px;
+	margin-top:			15px;
+}
+
+.button_yellow:hover {
+	background-color:	rgb(191, 174, 76);
+}
+
+.button_yellow:active {
+	background-color:	rgb(170, 154, 64);
+	box-shadow:			0 0 10px rgba(0,0,0,0.4);
+}

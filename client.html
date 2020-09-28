@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="client.css">
+	<script src="client.js"></script>
+	<title>Redis client</title>
+</head>
+<body>
+	<div class="wrapper">
+		<form name="redis">
+			<input type="text" name="key" placeholder="key">
+			<input type="text" name="value" placeholder="value">
+		</form>
+		<div class="button_crimson" onclick="SetValue()">
+			<div class="text_wrapper">
+				Set
+			</div>
+		</div>
+		<div class="button_blue" onclick="DropValue()">
+			<div class="text_wrapper">
+				Delete
+			</div>
+		</div>
+		<div class="button_yellow" onclick="GetValue()">
+			<div class="text_wrapper">
+				Get
+			</div>
+		</div>
+	</div>
+</body>
+</html>
